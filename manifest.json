@@ -1,28 +1,28 @@
 {
   "manifest_version": 2,
-  "name": "Octobox",
+  "name": "Ecosyste.ms",
   "version": "0.0.3",
 
-  "description": "Integrate Octobox directly into your GitHub workflow",
+  "description": "Integrate Ecosyste.ms directly into your GitHub workflow",
   "developer": {
     "name": "Andrew Nesbitt",
-    "url": "https://octobox.io"
+    "url": "https://ecosyste.ms"
   },
   "icons": {
-    "48": "icons/octobox-48.png",
-    "96": "icons/octobox-96.png"
+    "48": "icons/ecosystems-48.png",
+    "96": "icons/ecosystems-96.png"
   },
 
   "content_scripts": [
     {
-      "matches": ["*://*.github.com/*", "*://octobox.io/*"],
-      "js": ["octobox.js"],
-      "css": ["octobox.css"]
+      "matches": ["*://*.github.com/*", "*://ecosyste.ms/*"],
+      "js": ["ecosystems.js"],
+      "css": ["ecosystems.css"]
     }
   ],
 
   "permissions": [
-    "*://octobox.io/*",
+    "*://ecosyste.ms/*",
     "storage"
   ],
 

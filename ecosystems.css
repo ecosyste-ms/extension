@@ -1,25 +1,4 @@
-#octobox-login{
-  background-color: var(--color-canvas-default);
-	border-top: solid 1px var(--color-border-muted);
-	bottom: 0;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-	display: block;
-	padding: 10px 20px 10px 20px;
-	position: fixed;
-	left: 10px;
-  text-align: center;
-	z-index: 99999;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-}
-
-#octobox-login img{
-  margin-right: 10px;
-  position: relative;
-  top: 3px;
-}
-
-.octobox {
+.ecosystems {
   background-color: var(--color-canvas-default);
 	border-top: solid 1px var(--color-border-muted);
 	bottom: 0;
@@ -34,16 +13,16 @@
 	z-index: 99999;
 }
 
-.octobox .btn.disable {
+.ecosystems .btn.disable {
   opacity: 0.5;
   pointer-events: none;
 }
 
-.dark.octobox img, #octobox-login.dark img{
+.dark.ecosystems img, #ecosystems-login.dark img{
   filter: invert(97%) sepia(12%) saturate(241%) hue-rotate(214deg) brightness(116%) contrast(87%);
 }
 
-.octobox .btn img{
+.ecosystems .btn img{
   display: inline-block;
   background-repeat: no-repeat;
   background-position: center center;
@@ -53,12 +32,12 @@
   vertical-align: middle;
 }
 
-#octobox-next img{
+#ecosystems-next img{
   margin-left: 8px;
   margin-right: 0;
 }
 
-#octobox-logo{
+#ecosystems-logo{
   display: inline-block;
   height: 20px;
   position: absolute;
