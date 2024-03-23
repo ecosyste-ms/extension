@@ -1,17 +1,10 @@
 # Ecosyste.ms Browser Extension
 
-Integrate [Ecosyste.ms](https://ecosyste.ms) directly into your GitHub workflow with this browser extension.
-
-Directly manage and triage through your Ecosyste.ms inbox from your GitHub issues and pull requests. You can star, archive and mute notifications without needing to leave the page and quickly jump to the next and previous notifications in your inbox with a single click.
-
-<img src="screenshot.png">
+Browser extension to quickly see stats and facts about packages and repositories as you browse the web, powered by [Ecosyste.ms](https://ecosyste.ms).
 
 ## Installation
 
-You can currently install the browser extension from:
-- The Firefox addon site: https://addons.mozilla.org/en-GB/firefox/addon/ecosystems/
-- The Chrome webstore: https://chrome.google.com/webstore/detail/ecosystems/dpbajpnhgagfneijghelgldegjblinkc
-- The Opera addons site: https://addons.opera.com/en-gb/extensions/details/ecosystems/
+You can currently install the browser extension from source. We are working on getting it published to the Chrome and Firefox extension stores.
 
 ## Backers
 Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/ecosystems#backer)]
@@ -51,4 +44,4 @@ Please note that this project is released with a [Contributor Code of Conduct](h
 
 ## Copyright
 
-[GNU Affero License](LICENSE.txt) © 2021 [Andrew Nesbitt](https://github.com/andrew).
+[GNU Affero License](LICENSE.txt) © 2024 [Andrew Nesbitt](https://github.com/andrew).
